@@ -1,0 +1,19 @@
+int main(){
+int mat[10][10];
+int linha, coluna;
+ for(linha = 0; linha < 10; linha++)
+for(linha = 0; coluna < 10; coluna++){
+  printf("Valor mat[%d][%d] ",linha+1, coluna+1);
+  scanf("%d", &mat[linha][coluna]);
+}
+for(linha = 0; linha < 10;linha++)
+{
+  for(coluna = 0; coluna < 10;coluna++)
+  {
+printf("mat[%d][%d] = %d\t", linha, coluna, mat[linha][coluna]);
+  }
+  printf("\n");
+
+}
+ return 0;
+}
